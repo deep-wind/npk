@@ -50,7 +50,7 @@ if st.button("Predict"):
     
     results.reset_index(level=0, inplace=True)
     results.sort_values(by="score", ascending=False, inplace=True, ignore_index=True)
-    st.write(results)
+    #st.write(results)
     total=results['score'].isnull().sum()
     if total==len(results):
         st.success("no fertilizer needed")
