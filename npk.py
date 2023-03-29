@@ -60,7 +60,11 @@ with st.beta_expander("Sensor data"):
       n = 100
       p = 30
       k = 29
-      test_data=[[n,p,k]]
+      df = pd.read_csv("sensordata.txt",skiprows=1,header=None)
+      df.columns=['index','N','P','K']
+      df.drop(['index'],axis=1,inplace=True)
+      test_data=df.iloc[len(df)-1:]        
+      st.write(test_data)
 
       if st.button("Predict"):  
 
