@@ -32,9 +32,9 @@ fertilizer_labels=['Ammonium chloride',
 
 col1, col2 = st.beta_columns(2)
 with col1:        
-      n = st.slider('Nitrogen', min_value=0, step=1, max_value=500,value=500)
-      p = st.slider('Phosphorous', min_value=0, step=1, max_value=500,value=500)
-      k = st.slider('Potassium', min_value=0, step=1, max_value=500,value=500)
+      n = 100
+      p = 30
+      k = 29
       test_data=[[n,p,k]]
 
       if st.button("Predict"):  
