@@ -10,6 +10,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 global df
+import base64
 st.set_page_config(
 page_title="VEGE-ANALYST",
 page_icon="🥗"
