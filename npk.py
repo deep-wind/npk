@@ -35,7 +35,7 @@ def add_bg_from_local(image_file):
     )
 
 
-add_bg_from_local("backnpk.jpg")
+add_bg_from_local("backnpk2.jpg")
 
 labels=['Beans', 'okra', 'onion', 'potato', 'tomato', 'watermelon']
 fertilizer_labels=['Ammonium chloride',
