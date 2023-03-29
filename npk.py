@@ -29,34 +29,71 @@ fertilizer_labels=['Ammonium chloride',
  'Sulphate of potash',
  'Triple super phosphate',
  'Urea']
-n = st.slider('Nitrogen', min_value=0, step=1, max_value=500,value=500)
-p = st.slider('Phosphorous', min_value=0, step=1, max_value=500,value=500)
-k = st.slider('Potassium', min_value=0, step=1, max_value=500,value=500)
-test_data=[[n,p,k]]
 
-if st.button("Predict"):  
- 
-    random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
-    o=random_forest_model.predict(test_data)
-    print(o)
-    print(labels[int(o[0])])
-    
-    s="Randomforest PREDICTS : "+labels[int(o[0])]
-    st.info(s)
-    
-    sgd_classifier = pickle.load(open('sgd_model.pkl','rb'))
-    results = pd.DataFrame(sgd_classifier.predict_proba(test_data).transpose())
-    results.rename(columns={0: "score"}, inplace=True)
-    
-    results.reset_index(level=0, inplace=True)
-    results.sort_values(by="score", ascending=False, inplace=True, ignore_index=True)
-    #st.write(results)
-    total=results['score'].isnull().sum()
-    if total==len(results):
-        st.success("no fertilizer needed")
-    else:
-       st.error("The following fertilizers are needed")
-       for i in range(len(results)):
-            if results.loc[i, "score"] > 0.001:
-                st.warning(str(fertilizer_labels[results.loc[i, "index"]]) + " (" + str(round(100 * results.loc[i, "score"])) + "%)") 
-        
+col1, col2 = st.beta_columns(2)
+with col1:        
+      n = st.slider('Nitrogen', min_value=0, step=1, max_value=500,value=500)
+      p = st.slider('Phosphorous', min_value=0, step=1, max_value=500,value=500)
+      k = st.slider('Potassium', min_value=0, step=1, max_value=500,value=500)
+      test_data=[[n,p,k]]
+
+      if st.button("Predict"):  
+
+          random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
+          o=random_forest_model.predict(test_data)
+          print(o)
+          print(labels[int(o[0])])
+
+          s="Randomforest PREDICTS : "+labels[int(o[0])]
+          st.info(s)
+
+          sgd_classifier = pickle.load(open('sgd_model.pkl','rb'))
+          results = pd.DataFrame(sgd_classifier.predict_proba(test_data).transpose())
+          results.rename(columns={0: "score"}, inplace=True)
+
+          results.reset_index(level=0, inplace=True)
+          results.sort_values(by="score", ascending=False, inplace=True, ignore_index=True)
+          #st.write(results)
+          total=results['score'].isnull().sum()
+          if total==len(results):
+              st.success("no fertilizer needed")
+          else:
+             st.error("The following fertilizers are needed")
+             for i in range(len(results)):
+                  if results.loc[i, "score"] > 0.001:
+                      st.warning(str(fertilizer_labels[results.loc[i, "index"]]) + " (" + str(round(100 * results.loc[i, "score"])) + "%)") 
+
+
+
+with col2: 
+      n = st.slider('Nitrogen', min_value=0, step=1, max_value=500,value=500)
+      p = st.slider('Phosphorous', min_value=0, step=1, max_value=500,value=500)
+      k = st.slider('Potassium', min_value=0, step=1, max_value=500,value=500)
+      test_data=[[n,p,k]]
+
+      if st.button("Predict"):  
+
+          random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
+          o=random_forest_model.predict(test_data)
+          print(o)
+          print(labels[int(o[0])])
+
+          s="Randomforest PREDICTS : "+labels[int(o[0])]
+          st.info(s)
+
+          sgd_classifier = pickle.load(open('sgd_model.pkl','rb'))
+          results = pd.DataFrame(sgd_classifier.predict_proba(test_data).transpose())
+          results.rename(columns={0: "score"}, inplace=True)
+
+          results.reset_index(level=0, inplace=True)
+          results.sort_values(by="score", ascending=False, inplace=True, ignore_index=True)
+          #st.write(results)
+          total=results['score'].isnull().sum()
+          if total==len(results):
+              st.success("no fertilizer needed")
+          else:
+             st.error("The following fertilizers are needed")
+             for i in range(len(results)):
+                  if results.loc[i, "score"] > 0.001:
+                      st.warning(str(fertilizer_labels[results.loc[i, "index"]]) + " (" + str(round(100 * results.loc[i, "score"])) + "%)") 
+
