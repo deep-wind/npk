@@ -31,7 +31,7 @@ fertilizer_labels=['Ammonium chloride',
  'Urea']
 
 
- with st.beta_expander("Sensor data"):    
+with st.beta_expander("Sensor data"):    
       n = 100
       p = 30
       k = 29
@@ -66,7 +66,7 @@ fertilizer_labels=['Ammonium chloride',
 
 
 
- with st.beta_expander("Manual data"):    
+with st.beta_expander("Manual data"):    
       n = st.slider('Nitrogen', min_value=0, step=1, max_value=500,value=500)
       p = st.slider('Phosphorous', min_value=0, step=1, max_value=500,value=500)
       k = st.slider('Potassium', min_value=0, step=1, max_value=500,value=500)
