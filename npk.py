@@ -30,8 +30,8 @@ fertilizer_labels=['Ammonium chloride',
  'Triple super phosphate',
  'Urea']
 
-col1, col2 = st.beta_columns(2)
-with col1:        
+
+ with st.beta_expander("Sensor data"):    
       n = 100
       p = 30
       k = 29
@@ -65,13 +65,14 @@ with col1:
 
 
 
-with col2: 
+
+ with st.beta_expander("Manual data"):    
       n = st.slider('Nitrogen', min_value=0, step=1, max_value=500,value=500)
       p = st.slider('Phosphorous', min_value=0, step=1, max_value=500,value=500)
       k = st.slider('Potassium', min_value=0, step=1, max_value=500,value=500)
       test_data=[[n,p,k]]
 
-      if st.button("Predict"):  
+      if st.button("Get Results"):  
 
           random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
           o=random_forest_model.predict(test_data)
