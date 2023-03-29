@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd 
 import streamlit as st
 st.markdown("<h1 style ='color:black; text_align:center;font-family:times new roman;font-size:20pt; font-weight: bold;'>VEG ANALYST</h1>", unsafe_allow_html=True)
-
+st.write("hi")
 import pickle
 global df
 labels=['Beans', 'okra', 'onion', 'potato', 'tomato', 'watermelon']
