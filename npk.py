@@ -60,37 +60,40 @@ with st.beta_expander("Sensor data"):
       n = 100
       p = 30
       k = 29
-      df = pd.read_csv("sensordata.txt",skiprows=1,header=None)
-      df.columns=['index','N','P','K']
-      df.drop(['index'],axis=1,inplace=True)
-      test_data=df.iloc[len(df)-1:]        
-      st.write(test_data)
+      with st.spinner('Wait for it...'):
+            time.sleep(5)
 
-      if st.button("Predict"):  
+              df = pd.read_csv("sensordata.txt",skiprows=1,header=None)
+              df.columns=['index','N','P','K']
+              df.drop(['index'],axis=1,inplace=True)
+              test_data=df.iloc[len(df)-1:]        
+              st.write(test_data)
 
-          random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
-          o=random_forest_model.predict(test_data)
-          print(o)
-          print(labels[int(o[0])])
+              if st.button("Predict"):  
 
-          s="Randomforest PREDICTS : "+labels[int(o[0])]
-          st.info(s)
+                  random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
+                  o=random_forest_model.predict(test_data)
+                  print(o)
+                  print(labels[int(o[0])])
 
-          sgd_classifier = pickle.load(open('sgd_model.pkl','rb'))
-          results = pd.DataFrame(sgd_classifier.predict_proba(test_data).transpose())
-          results.rename(columns={0: "score"}, inplace=True)
+                  s="Randomforest PREDICTS : "+labels[int(o[0])]
+                  st.info(s)
 
-          results.reset_index(level=0, inplace=True)
-          results.sort_values(by="score", ascending=False, inplace=True, ignore_index=True)
-          #st.write(results)
-          total=results['score'].isnull().sum()
-          if total==len(results):
-              st.success("no fertilizer needed")
-          else:
-             st.error("The following fertilizers are needed")
-             for i in range(len(results)):
-                  if results.loc[i, "score"] > 0.001:
-                      st.warning(str(fertilizer_labels[results.loc[i, "index"]]) + " (" + str(round(100 * results.loc[i, "score"])) + "%)") 
+                  sgd_classifier = pickle.load(open('sgd_model.pkl','rb'))
+                  results = pd.DataFrame(sgd_classifier.predict_proba(test_data).transpose())
+                  results.rename(columns={0: "score"}, inplace=True)
+
+                  results.reset_index(level=0, inplace=True)
+                  results.sort_values(by="score", ascending=False, inplace=True, ignore_index=True)
+                  #st.write(results)
+                  total=results['score'].isnull().sum()
+                  if total==len(results):
+                      st.success("no fertilizer needed")
+                  else:
+                     st.error("The following fertilizers are needed")
+                     for i in range(len(results)):
+                          if results.loc[i, "score"] > 0.001:
+                              st.warning(str(fertilizer_labels[results.loc[i, "index"]]) + " (" + str(round(100 * results.loc[i, "score"])) + "%)") 
 
 
 
