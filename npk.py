@@ -17,7 +17,7 @@ page_title="VEGE-ANALYST",
 page_icon="🥗"
 )
 
-st.markdown("<h1 style ='color:black; text_align:center;font-family:times new roman;font-size:20pt; font-weight: bold;'>VEG ANALYST</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style ='color:black; text_align:center;font-family:times new roman;font-size:20pt; font-weight: bold;'>VEGE ANALYST</h1>", unsafe_allow_html=True)
 
 
 def add_bg_from_local(image_file):
