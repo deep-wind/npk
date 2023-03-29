@@ -11,6 +11,7 @@ import streamlit as st
 import pickle
 global df
 import base64
+import time
 st.set_page_config(
 page_title="VEGE-ANALYST",
 page_icon="🥗"
