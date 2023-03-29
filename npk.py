@@ -8,10 +8,34 @@ Created on Wed Mar 29 01:15:32 2023
 import numpy as np 
 import pandas as pd 
 import streamlit as st
-st.markdown("<h1 style ='color:black; text_align:center;font-family:times new roman;font-size:20pt; font-weight: bold;'>VEG ANALYST</h1>", unsafe_allow_html=True)
-
 import pickle
 global df
+
+st.markdown("<h1 style ='color:black; text_align:center;font-family:times new roman;font-size:20pt; font-weight: bold;'>VEG ANALYST</h1>", unsafe_allow_html=True)
+st.set_page_config(
+page_title="VEGE-ANALYST",
+page_icon="🥗"
+)
+
+
+def add_bg_from_local(image_file):
+    with open(image_file, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read())
+    st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url(data:image/{"jpg"};base64,{encoded_string.decode()});
+        background-size: cover
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
+
+
+add_bg_from_local("back.jpg")
+
 labels=['Beans', 'okra', 'onion', 'potato', 'tomato', 'watermelon']
 fertilizer_labels=['Ammonium chloride',
  'Ammonium phosphate',
