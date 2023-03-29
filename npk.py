@@ -61,8 +61,7 @@ with st.beta_expander("Sensor data"):
       p = 30
       k = 29
       with st.spinner('Wait for it...'):
-            time.sleep(5)
-
+              time.sleep(5)
               df = pd.read_csv("sensordata.txt",skiprows=1,header=None)
               df.columns=['index','N','P','K']
               df.drop(['index'],axis=1,inplace=True)
