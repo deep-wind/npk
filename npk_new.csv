@@ -1,0 +1,451 @@
+﻿N, P,K,LABEL
+80,77,73,Beans
+63,73,74,Beans
+85,61,78,Beans
+116,59,54,Beans
+96,64,69,Beans
+98,58,59,Beans
+62,74,78,Beans
+71,52,79,Beans
+62,69,72,Beans
+92,53,50,Beans
+112,52,53,Beans
+107,66,61,Beans
+119,77,52,Beans
+97,51,72,Beans
+66,64,55,Beans
+85,79,78,Beans
+61,53,55,Beans
+100,53,65,Beans
+115,74,78,Beans
+98,62,59,Beans
+81,72,56,Beans
+102,68,57,Beans
+62,55,78,Beans
+105,64,52,Beans
+117,71,77,Beans
+136,68,70,Brinjal
+110,67,87,Brinjal
+137,69,78,Brinjal
+128,69,99,Brinjal
+152,68,92,Brinjal
+177,75,65,Brinjal
+139,75,97,Brinjal
+194,73,82,Brinjal
+131,62,85,Brinjal
+135,78,77,Brinjal
+189,63,99,Brinjal
+144,70,98,Brinjal
+107,62,88,Brinjal
+127,78,76,Brinjal
+156,76,86,Brinjal
+184,78,79,Brinjal
+175,71,94,Brinjal
+102,78,72,Brinjal
+120,73,77,Brinjal
+162,68,51,Brinjal
+166,64,88,Brinjal
+148,74,87,Brinjal
+156,68,81,Brinjal
+105,67,58,Brinjal
+186,74,67,Brinjal
+188,87,55,Cabbage
+119,97,89,Cabbage
+148,94,64,Cabbage
+197,81,54,Cabbage
+183,84,51,Cabbage
+137,96,60,Cabbage
+119,91,66,Cabbage
+188,89,52,Cabbage
+159,87,74,Cabbage
+172,81,61,Cabbage
+158,90,88,Cabbage
+124,89,73,Cabbage
+126,81,82,Cabbage
+100,100,71,Cabbage
+171,96,61,Cabbage
+112,87,88,Cabbage
+171,92,58,Cabbage
+117,91,76,Cabbage
+112,88,94,Cabbage
+156,90,55,Cabbage
+150,93,68,Cabbage
+113,88,81,Cabbage
+161,83,66,Cabbage
+169,100,99,Cabbage
+160,99,90,Cabbage
+143,61,90,Carrot
+96,72,85,Carrot
+132,64,98,Carrot
+92,64,82,Carrot
+123,71,88,Carrot
+135,62,85,Carrot
+137,69,82,Carrot
+106,72,91,Carrot
+127,71,87,Carrot
+94,74,95,Carrot
+114,70,97,Carrot
+146,61,85,Carrot
+133,79,87,Carrot
+91,68,83,Carrot
+83,67,84,Carrot
+105,65,95,Carrot
+117,66,83,Carrot
+145,65,82,Carrot
+109,65,91,Carrot
+115,67,91,Carrot
+122,64,93,Carrot
+138,70,92,Carrot
+115,74,89,Carrot
+113,62,100,Carrot
+147,70,98,Carrot
+183,68,52,Cauliflower
+183,72,80,Cauliflower
+130,75,98,Cauliflower
+192,72,64,Cauliflower
+109,64,53,Cauliflower
+125,66,74,Cauliflower
+198,73,88,Cauliflower
+185,68,89,Cauliflower
+173,71,78,Cauliflower
+104,70,65,Cauliflower
+128,68,85,Cauliflower
+135,74,79,Cauliflower
+196,60,54,Cauliflower
+176,60,100,Cauliflower
+105,61,55,Cauliflower
+195,73,83,Cauliflower
+105,65,85,Cauliflower
+141,76,55,Cauliflower
+128,66,51,Cauliflower
+137,75,69,Cauliflower
+145,75,80,Cauliflower
+124,61,62,Cauliflower
+143,75,68,Cauliflower
+134,67,66,Cauliflower
+117,66,51,Cauliflower
+189,98,100,Chilli
+288,97,99,Chilli
+234,81,80,Chilli
+188,88,95,Chilli
+130,92,91,Chilli
+237,94,95,Chilli
+261,96,100,Chilli
+174,94,85,Chilli
+234,88,100,Chilli
+175,90,85,Chilli
+112,88,100,Chilli
+154,92,89,Chilli
+186,92,89,Chilli
+258,91,92,Chilli
+116,80,93,Chilli
+272,85,87,Chilli
+222,91,86,Chilli
+199,93,96,Chilli
+121,95,85,Chilli
+156,97,86,Chilli
+109,91,88,Chilli
+115,92,85,Chilli
+257,100,84,Chilli
+190,85,90,Chilli
+146,85,93,Chilli
+92,53,40,Cowpea
+57,60,49,Cowpea
+96,56,47,Cowpea
+68,58,42,Cowpea
+93,40,60,Cowpea
+52,59,44,Cowpea
+59,45,45,Cowpea
+94,41,42,Cowpea
+75,44,42,Cowpea
+81,60,55,Cowpea
+59,45,55,Cowpea
+70,41,48,Cowpea
+73,55,46,Cowpea
+68,42,53,Cowpea
+99,46,40,Cowpea
+89,52,47,Cowpea
+53,50,59,Cowpea
+100,47,57,Cowpea
+99,41,46,Cowpea
+95,53,51,Cowpea
+98,59,45,Cowpea
+85,59,47,Cowpea
+50,48,49,Cowpea
+69,51,52,Cowpea
+65,47,40,Cowpea
+123,45,63,Cucumber
+82,54,46,Cucumber
+88,43,47,Cucumber
+93,49,66,Cucumber
+111,60,63,Cucumber
+144,40,53,Cucumber
+122,60,67,Cucumber
+131,60,53,Cucumber
+81,50,41,Cucumber
+114,47,62,Cucumber
+94,43,47,Cucumber
+96,50,63,Cucumber
+113,43,66,Cucumber
+129,48,57,Cucumber
+142,60,42,Cucumber
+137,56,55,Cucumber
+90,57,55,Cucumber
+135,43,56,Cucumber
+118,40,59,Cucumber
+104,55,48,Cucumber
+132,43,64,Cucumber
+121,41,64,Cucumber
+108,46,43,Cucumber
+140,43,41,Cucumber
+108,60,56,Cucumber
+70,58,51,Garden pea
+61,51,51,Garden pea
+77,52,51,Garden pea
+73,57,54,Garden pea
+71,56,51,Garden pea
+70,60,58,Garden pea
+70,52,59,Garden pea
+65,50,59,Garden pea
+77,50,56,Garden pea
+61,60,53,Garden pea
+73,56,56,Garden pea
+80,57,59,Garden pea
+73,56,59,Garden pea
+66,51,53,Garden pea
+65,54,60,Garden pea
+73,55,51,Garden pea
+68,58,55,Garden pea
+66,58,51,Garden pea
+66,58,53,Garden pea
+60,58,58,Garden pea
+62,52,56,Garden pea
+65,55,50,Garden pea
+77,50,58,Garden pea
+69,56,53,Garden pea
+74,57,54,Garden pea
+181,69,61,Garlic
+108,70,79,Garlic
+136,74,60,Garlic
+173,76,80,Garlic
+187,70,67,Garlic
+175,69,73,Garlic
+168,66,64,Garlic
+173,77,74,Garlic
+111,63,77,Garlic
+106,66,76,Garlic
+165,62,77,Garlic
+120,60,70,Garlic
+119,63,76,Garlic
+129,77,77,Garlic
+142,78,78,Garlic
+182,64,78,Garlic
+148,71,71,Garlic
+143,70,68,Garlic
+102,77,77,Garlic
+120,75,79,Garlic
+119,78,76,Garlic
+106,66,68,Garlic
+154,61,79,Garlic
+198,65,66,Garlic
+118,63,70,Garlic
+160,43,74,Lettuce
+174,68,73,Lettuce
+174,68,60,Lettuce
+140,66,73,Lettuce
+121,77,73,Lettuce
+157,56,76,Lettuce
+122,76,57,Lettuce
+143,40,76,Lettuce
+144,60,76,Lettuce
+179,49,75,Lettuce
+161,59,73,Lettuce
+166,76,62,Lettuce
+125,51,76,Lettuce
+150,44,50,Lettuce
+173,75,64,Lettuce
+128,44,53,Lettuce
+155,51,65,Lettuce
+142,40,54,Lettuce
+177,80,59,Lettuce
+146,57,70,Lettuce
+120,72,55,Lettuce
+148,65,62,Lettuce
+174,73,58,Lettuce
+160,52,77,Lettuce
+140,43,71,Lettuce
+148,68,67,Okra
+122,65,65,Okra
+125,72,76,Okra
+119,56,75,Okra
+117,69,60,Okra
+126,51,72,Okra
+100,54,55,Okra
+150,73,72,Okra
+135,62,79,Okra
+103,79,63,Okra
+129,57,51,Okra
+104,75,57,Okra
+139,79,62,Okra
+132,62,62,Okra
+128,79,80,Okra
+149,69,59,Okra
+129,59,77,Okra
+145,70,55,Okra
+128,71,66,Okra
+135,59,68,Okra
+115,63,65,Okra
+125,62,63,Okra
+131,73,56,Okra
+109,73,58,Okra
+123,76,59,Okra
+275,60,59,Onion
+167,68,64,Onion
+225,72,68,Onion
+121,75,80,Onion
+146,74,69,Onion
+263,74,58,Onion
+180,60,65,Onion
+219,64,68,Onion
+137,70,76,Onion
+287,75,59,Onion
+129,64,65,Onion
+296,63,75,Onion
+191,67,57,Onion
+209,69,58,Onion
+120,71,71,Onion
+205,60,77,Onion
+275,78,73,Onion
+171,77,55,Onion
+164,60,66,Onion
+153,80,56,Onion
+256,65,63,Onion
+263,77,72,Onion
+163,76,80,Onion
+299,71,65,Onion
+171,67,63,Onion
+109,44,56,Spinach
+89,43,60,Spinach
+109,60,52,Spinach
+107,58,40,Spinach
+101,50,55,Spinach
+91,58,54,Spinach
+85,54,50,Spinach
+109,45,47,Spinach
+109,49,41,Spinach
+112,50,52,Spinach
+83,55,45,Spinach
+118,56,52,Spinach
+118,46,52,Spinach
+94,56,60,Spinach
+103,56,59,Spinach
+86,48,48,Spinach
+118,44,49,Spinach
+87,50,41,Spinach
+92,60,52,Spinach
+91,58,60,Spinach
+90,55,47,Spinach
+97,48,58,Spinach
+96,44,55,Spinach
+113,47,60,Spinach
+84,55,42,Spinach
+153,72,106,Potato
+178,63,102,Potato
+152,60,100,Potato
+191,67,88,Potato
+186,66,94,Potato
+179,79,117,Potato
+197,74,81,Potato
+188,75,94,Potato
+105,71,82,Potato
+193,60,91,Potato
+195,76,119,Potato
+145,61,93,Potato
+184,71,103,Potato
+179,63,100,Potato
+170,80,89,Potato
+118,77,102,Potato
+156,73,80,Potato
+102,65,83,Potato
+160,78,117,Potato
+103,67,92,Potato
+180,71,112,Potato
+168,70,112,Potato
+121,63,101,Potato
+160,71,85,Potato
+186,61,82,Potato
+129,53,68,Snap bean
+139,61,74,Snap bean
+148,76,53,Snap bean
+148,60,60,Snap bean
+118,56,77,Snap bean
+124,50,76,Snap bean
+121,59,57,Snap bean
+150,50,73,Snap bean
+101,69,68,Snap bean
+102,52,76,Snap bean
+144,56,69,Snap bean
+101,57,66,Snap bean
+143,63,77,Snap bean
+137,68,72,Snap bean
+111,79,51,Snap bean
+132,62,56,Snap bean
+115,73,56,Snap bean
+140,61,62,Snap bean
+145,79,58,Snap bean
+138,74,54,Snap bean
+132,68,80,Snap bean
+107,72,74,Snap bean
+112,75,60,Snap bean
+119,59,58,Snap bean
+116,78,63,Snap bean
+154,66,99,Tomato
+145,71,63,Tomato
+123,76,74,Tomato
+135,70,81,Tomato
+142,75,100,Tomato
+100,61,79,Tomato
+125,60,51,Tomato
+158,77,66,Tomato
+159,62,58,Tomato
+199,67,63,Tomato
+166,73,50,Tomato
+121,78,52,Tomato
+163,70,80,Tomato
+165,79,51,Tomato
+146,65,81,Tomato
+101,78,53,Tomato
+121,80,79,Tomato
+112,60,53,Tomato
+106,70,78,Tomato
+186,71,71,Tomato
+197,73,83,Tomato
+100,61,81,Tomato
+152,70,58,Tomato
+179,65,99,Tomato
+131,60,94,Tomato
+143,47,60,Watermelon
+112,53,76,Watermelon
+148,58,60,Watermelon
+129,43,67,Watermelon
+114,49,73,Watermelon
+153,60,72,Watermelon
+130,40,70,Watermelon
+152,60,77,Watermelon
+135,60,71,Watermelon
+157,43,80,Watermelon
+141,55,74,Watermelon
+142,48,75,Watermelon
+156,46,73,Watermelon
+123,58,64,Watermelon
+131,48,75,Watermelon
+131,50,69,Watermelon
+121,54,78,Watermelon
+128,56,64,Watermelon
+152,50,78,Watermelon
+152,60,75,Watermelon
+118,47,77,Watermelon
+157,57,66,Watermelon
+144,43,77,Watermelon
+148,47,61,Watermelon
+109,58,61,Watermelon
