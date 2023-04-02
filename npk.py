@@ -86,9 +86,9 @@ with st.beta_expander("Sensor data"):
                   random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
                   o=random_forest_model.predict(test_data)
                   print(o)
-                  print(labels[int(o[0])])
+                  print(labels[round(o[0])])
 
-                  s="Randomforest PREDICTS : "+labels[int(o[0])]
+                  s="Randomforest PREDICTS : "+labels[round(o[0])]
                   st.info(s)
 
                   sgd_classifier = pickle.load(open('sgd_model.pkl','rb'))
@@ -121,9 +121,9 @@ with st.beta_expander("Manual data"):
           random_forest_model = pickle.load(open('randomforest_model.pkl','rb'))
           o=random_forest_model.predict(test_data)
           print(o)
-          print(labels[int(o[0])])
+          print(round[int(o[0])])
 
-          s="Randomforest PREDICTS : "+labels[int(o[0])]
+          s="Randomforest PREDICTS : "+labels[round(o[0])]
           st.info(s)
 
           sgd_classifier = pickle.load(open('sgd_model.pkl','rb'))
