@@ -50,6 +50,7 @@ labels=['Beans',
  'Watermelon']
 
 
+
 fertilizer_labels=['Ammonium chloride',
  'Ammonium phosphate',
  'Ammonium sulphate',
